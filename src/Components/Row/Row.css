@@ -1,0 +1,6 @@
+.basicRowStyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px black solid;
+}
