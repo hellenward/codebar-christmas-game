@@ -3,5 +3,16 @@
 }
 
 .AppBoardContainer {
-  text-align: center;
+  margin: 0 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.AppBaublesAndSprouts {
+  margin: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

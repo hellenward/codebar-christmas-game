@@ -1,6 +1,11 @@
 .basicRowStyle {
+    flex: 1 0 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border: 2px black solid;
+    flex-flow: row nowrap;
+    align-items: stretch;
 }
+
+.basicRowStyle > * {
+    border: 1px solid black;
+    flex: 1 1 auto;
+  }

@@ -1,5 +1,7 @@
+import './Square.css'
+
 export const Square = () => {
     return (
-        <div data-testid="gameSquare">I am a Square!</div>
+        <div data-testid="gameSquare" className="gameSquare">I am a Square!</div>
     )
 }

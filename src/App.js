@@ -1,4 +1,6 @@
 import { Board } from './Components/Board/Board'
+import { Baubles } from './Components/Baubles/Baubles'
+import { SproutBox } from './Components/SproutBox/SproutBox';
 
 import './App.css';
 
@@ -10,6 +12,14 @@ function App() {
       </div>
       <div className="AppBoardContainer">
         <Board />
+      </div>
+      <div className="AppBaublesAndSprouts">
+        <div className="AppBaublesContainer">
+          <Baubles />
+        </div>
+        <div className="AppBaublesContainer">
+          <SproutBox />
+        </div>
       </div>
     </>
   );

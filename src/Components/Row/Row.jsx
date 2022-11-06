@@ -9,6 +9,8 @@ export const Row = () => {
             <Square />
             <Square />
             <Square />
+            <Square />
+            <Square />
         </div>
     )
 }

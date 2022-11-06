@@ -1,0 +1,6 @@
+.SproutBoxStyle {
+    width: 35rem;
+    border: 2px solid green;
+    padding: 1rem 1rem 1rem 0.5rem;
+    border-radius: 0.5rem;
+}
