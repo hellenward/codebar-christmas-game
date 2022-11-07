@@ -4,3 +4,9 @@
     padding: 1rem 1rem 1rem 0.5rem;
     border-radius: 0.5rem;
 }
+
+.bauble {
+    height: 3rem;
+    width: 3rem;
+    margin: 1rem;
+}

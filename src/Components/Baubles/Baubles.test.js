@@ -1,8 +1,14 @@
-import { render } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 import { Baubles } from './Baubles'
 
-describe('scorebox tests', () => {
-    test('should render ScoreBox', () => {
+describe('baubles tests', () => {
+    test('should render bauble container', () => {
         render(<Baubles />)
+    })
+
+    test('should render bauble image', () => {
+        render(<Baubles />)
+        const bauble = screen.getByRole('img')
+        expect(bauble).not.toBe(undefined)
     })
 })

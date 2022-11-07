@@ -1,6 +1,22 @@
 .gameSquare {
-    padding: 3rem;
-    border: 1px solid black;
+    display: flex;
+    padding: 1rem;
     border-radius: 2.5%;
-    resize: both;
+    justify-content: center;
+    align-items: center;
+}
+
+.sproutMan {
+    width: 3rem;
+    height: 3rem;
+}
+
+.baubleMan {
+    width: 3rem;
+    height: 3rem;
+}
+
+.backOfCard {
+    width: 4rem;
+    height: 4rem;
 }
