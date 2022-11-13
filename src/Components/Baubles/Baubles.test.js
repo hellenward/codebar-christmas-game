@@ -11,4 +11,15 @@ describe('baubles tests', () => {
         const bauble = screen.getByRole('img')
         expect(bauble).not.toBe(undefined)
     })
+
+    test('should show player 1 title', () => {
+        render(<Baubles />)
+        expect(screen.getByText(/player 1/i)).toBeInTheDocument()
+    })
+
+    test('should show a name for player 1', () => {
+        const player1 = 'Yoda'
+        render(<Baubles player={player1} />)
+        expect(screen.getByText(/yoda/i)).toBeInTheDocument()
+    })
 })

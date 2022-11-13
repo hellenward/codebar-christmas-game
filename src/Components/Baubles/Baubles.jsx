@@ -1,8 +1,12 @@
 import './Baubles.css'
 import scoreBauble from '../../images/scoreBauble.png'
+import { Fragment } from 'react'
 
-export const Baubles = () => {
+export const Baubles = (props) => {
     return (
-        <div data-testid="baubles" className="BaublesStyle"><img className="bauble" src={scoreBauble} /> </div>
+        <Fragment>
+            <h3>Player 1: {props.player}</h3>
+            <div data-testid="baubles" className="BaublesStyle"><img className="bauble" src={scoreBauble} /> </div>
+        </Fragment>
     )
 }

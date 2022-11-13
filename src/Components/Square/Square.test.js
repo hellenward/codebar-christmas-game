@@ -9,7 +9,6 @@ describe('square test', () => {
   test('should display sprout image when sprout prop is passed in', () => {
     render(<Square type="sprout" />)
     const image = screen.getByRole('img')
-    console.log(image)
     expect(image).toHaveClass('sproutMan')
   })
 
